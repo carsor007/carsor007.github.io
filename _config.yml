@@ -1,0 +1,21 @@
+markdown: kramdown
+highlighter: rouge
+url: http://carsor007.github.com
+exclude: [ README ]
+safe: true
+lsi: false
+excerpt_separator: <!--more-->
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            'Sam Njoroge'
+baseurl:          /
+
+github:
+  repo:           https://github.com/carsor007
+
+author:
+  name:           'Sam Njoroge'
+  url:            https://www.linkedin.com/in/samuelnjoroge
