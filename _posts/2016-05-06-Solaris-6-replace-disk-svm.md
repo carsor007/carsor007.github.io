@@ -46,33 +46,31 @@ d25 1 1 c0t8d0s3
 d6 -m d16 d26 1
 d16 1 1 c0t0d0s1
 d26 1 1 c0t8d0s1
-~~~
 
-Now proceed to detach the mirrors
-~~~ bash
+
+#Now proceed to detach the mirrors
+
 metadetach -f d0 d10
 metadetach -f d3 d13
 metadetach -f d4 d14
 metadetach -f d5 d15
 metadetach -f d6 d16
 
-~~~
+
 Now we need to clear the metadevices that we detached from above.
 
-~~~ bash
+
 metaclear d10 d13 d14 d15 d16 && ./metastat -p
-~~~
 
 delete the state database replicas using the below command
-~~~ bash
+
 ./metadb -d c0t0d0s7
-~~~
+
 Show the new config.
-~~~ bash
 ./metastat -p
-~~~
+
 Now insert the New Disk and after it's initialized continue below
-~~~ bash
+
 format
 Label it now? y
 format> label
