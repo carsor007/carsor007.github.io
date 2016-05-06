@@ -1,6 +1,6 @@
 markdown: kramdown
 highlighter: rouge
-url: http://carsor007.github.com
+url: http://carsor007.github.io
 exclude: [ README ]
 safe: true
 lsi: false
