@@ -6,7 +6,7 @@ tags:
 - Solaris 6
 - Unix
 published: true
-title: Solaris 6 Disk replacemenr
+title: Solaris 6 Disk replacement
 ---
 
 SOLARIS 6 DISK REPLACEMENT
