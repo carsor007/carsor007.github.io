@@ -1,4 +1,14 @@
-Recover a forgotten root password on Redhat Linux
+---
+layout: post
+type: post
+tags:
+- root password
+- Linux
+- Redhat
+published: true
+title: Recover a forgotten root password on Redhat Linux
+---
+
 
 Boot up/ restart your server.
 As soon as the grub menu loads, hit e to edit.
