@@ -1,3 +1,12 @@
+---
+layout: post
+type: post
+tags:
+- ssh
+- Linux
+published: true
+title: Key based ssh setup
+---
 
 ~~~ bash
 1st generate ssh signed key , either dsa or rsa(preferred/default)
