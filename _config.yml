@@ -1,6 +1,6 @@
 markdown: kramdown
 highlighter: rouge
-url: http://codeadict.github.com
+url: http://carsor007.github.com
 exclude: [ README ]
 safe: true
 lsi: false
@@ -10,12 +10,12 @@ excerpt_separator: <!--more-->
 permalink:        pretty
 
 # Setup
-title:            'Dairon Medina'
+title:            'Sam Njoroge'
 baseurl:          /
 
 github:
-  repo:           https://github.com/codeadict
+  repo:           https://github.com/carsor007
 
 author:
-  name:           'Dairon Medina'
-  url:            https://twitter.com/codeadict
+  name:           'Sam Njoroge'
+  url:            https://www.linkedin.com/in/samuelnjoroge
