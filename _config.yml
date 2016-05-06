@@ -10,8 +10,8 @@ excerpt_separator: <!--more-->
 permalink:        pretty
 
 # Setup
-title:            'carsor007.github.io'
-baseurl:          /
+title:            'Sam Njoroge'
+baseurl:          http://carsor007.github.io
 
 github:
   repo:           https://github.com/carsor007
