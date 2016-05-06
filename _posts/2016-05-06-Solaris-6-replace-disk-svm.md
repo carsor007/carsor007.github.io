@@ -19,13 +19,11 @@ Run the below commands.
 
 
 Disk to be replaced c0t0d0 --->c0t8d0 to be used for labelling(since they're mirrored)
-
-
-
-run command 
+Run command:
 ~~~ bash
 cfgadm -av c0
 ~~~
+
 For more information about the cfgadm command and it's uses please visit: #http://docs.oracle.com/cd/E23824_01/html/821-1462/cfgadm-1m.html
 
 Now run metastat -p to determine the mirrors and submirror
