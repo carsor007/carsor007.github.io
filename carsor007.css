@@ -186,7 +186,7 @@ article p .dmpic{
     border: 1px solid #DEDEDE;
     width: 121px;
     height: 162px;
-    background: transparent url('/imgs/dairon.png') no-repeat left;
+    background: transparent url('/imgs/me.png') no-repeat left;
     -moz-transition: fade .8s ease-in-out;
     -webkit-transition: opacity .8s ease-in-out;
     transition: opacity .8s ease-in-out;
