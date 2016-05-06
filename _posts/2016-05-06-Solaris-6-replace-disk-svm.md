@@ -11,7 +11,7 @@ title: Solaris 6 Disk replacement
 
 SOLARIS 6 DISK REPLACEMENT
 
-In this example, the disk to replaced is c0t0d0, which is currently mirrored with c0t8d0
+In this example, the disk to be replaced is c0t0d0, which is currently mirrored with c0t8d0
 
 Run the below commands.
 
@@ -23,8 +23,10 @@ Disk to be replaced c0t0d0 --->c0t8d0 to be used for labelling(since they're mir
 
 
 run command 
+~~~ bash
 cfgadm -av c0
-For more information about the cfgadm command and it's uses please visit http://docs.oracle.com/cd/E23824_01/html/821-1462/cfgadm-1m.html
+~~~
+For more information about the cfgadm command and it's uses please visit: #http://docs.oracle.com/cd/E23824_01/html/821-1462/cfgadm-1m.html
 
 Now run metastat -p to determine the mirrors and submirror
 Note, save the above information somewehere, this will be used in detaching and also reattaching the mirrors
