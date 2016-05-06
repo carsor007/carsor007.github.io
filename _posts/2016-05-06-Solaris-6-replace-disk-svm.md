@@ -23,13 +23,12 @@ Disk to be replaced c0t0d0 --->c0t8d0 to be used for labelling(since they're mir
 
 
 run command 
-~~~ bash
 cfgadm -av c0
-~~~ 
-#for more information about the cfgadm command and it's uses please visit http://docs.oracle.com/cd/E23824_01/html/821-1462/cfgadm-1m.html
+For more information about the cfgadm command and it's uses please visit http://docs.oracle.com/cd/E23824_01/html/821-1462/cfgadm-1m.html
 
 Now run metastat -p to determine the mirrors and submirror
 Note, save the above information somewehere, this will be used in detaching and also reattaching the mirrors
+
 ~~~ bash
 bash-3.2$ metastat -p
 d0 -m d10 d20 1
