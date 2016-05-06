@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+  <div id="wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="avatar">
+            <a href="/">
+              <img src="/imgs/me.png" alt="Sam Njoroge" class="avatar img-circle" />
+            </a>
+            <h1>Sam Njoroge (carsor007)</h1>
+            <h2>software engineer</h2>
+
+            <p>
+              <span class="icon-location"></span>
+              Dallas, TX, Planet Earth (32.7833333,-96.8 - UTC-05)
+            </p>
+          </p>
+          <h3 class="home-top-links">
+            <a href="/">About me</a> &bull;
+            <a href="/blog">Blog</a>
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+
+  <div id="footer" class="home-footer">
+    <div class="container">
+      <a href="http://carsor007.github.io">Copyleft Sam Njoroge (carsor007)</a></li>
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike</a>
+    </div>
+  </div>
+
+
+  <!-- scripts -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+  <!--[if lt IE 7 ]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script>
+  <script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script>
+  <![endif]-->
+  <script type="text/javascript" src="/js/innerfade.js"></script>
+  <script type="text/javascript" src="/js/site.js"></script>
+</body>
