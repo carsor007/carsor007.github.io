@@ -19,21 +19,21 @@ Run the below commands.
  <li>cd /usr/opt/SUNWmd/sbin # This is where all the commands for disk replacement are located.</li>
 
 
-Disk to be replaced c0t0d0 --->c0t8d0 to be used for labelling(since they're mirrored)
+<li>Disk to be replaced c0t0d0 --->c0t8d0 to be used for labelling(since they're mirrored)</li>
 
 
 
 run command 
 ~~~ bash
-cfgadm -av c0
+<li>cfgadm -av c0</li>
 ~~~ 
 #for more information about the cfgadm command and it's uses please visit http://docs.oracle.com/cd/E23824_01/html/821-1462/cfgadm-1m.html
 
 Now run metastat -p to determine the mirrors and submirror
 Note, save the above information somewehere, this will be used in detaching and also reattaching the mirrors
 ~~~ bash
-bash-3.2$ metastat -p
-d0 -m d10 d20 1
+<li>bash-3.2$ metastat -p</li>
+<li>d0 -m d10 d20 1</li>
 d10 1 1 c0t0d0s1
 d20 1 1 c0t8d0s1
 d3 -m d13 d23 1
