@@ -1,7 +1,7 @@
 ---
 published: false
 ---
-## MongoDB lets you store in query form nested documents within arrays, check below example for nested document for ratings and an array field for authors
+## MongoDB lets you store in query form nested documents within arrays, check below example for nested document for ratings and an array field for screenplay authors
 
   ~~~ bash
   var doc = {
