@@ -9,7 +9,7 @@ published: false
    year: 1975,
    director: 'Steven Spielberg',
    rating: 'PG',
-   rating: {
+   ratings: {
       critics: 80,
       audience: 97
     },
@@ -24,5 +24,9 @@ published: false
 
      db.collection('movies').
       find({ screenplay: 'Peter Benchley' }).
+      toArray(function(error, docs) {
+  /*note the (.) in the ratings.audience, this is what is used to search through a nested document in the database */
+   db.collection('movies').
+      find({ 'ratings.audience': {'$gte': 90 }}).
       toArray(function(error, docs) {
    ~~~
