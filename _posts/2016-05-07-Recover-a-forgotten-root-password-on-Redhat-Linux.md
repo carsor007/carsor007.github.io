@@ -20,6 +20,7 @@ Then hit **ctrl + x** to boot into single user mode
 
 -**mount -o remount,rw /sysroot**
 
+
 - **chroot /sysroot**
 
 Now you can change the password by typing passwd root and creating new password
