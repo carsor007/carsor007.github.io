@@ -17,6 +17,7 @@ Look for this line,  **rhgb quiet LANG-en_US.UTF-8**
 Add **rd.break** at the end of that line.
 Then hit **ctrl + x** to boot into single user mode
 
+
 -**mount -o remount,rw /sysroot**
 - **chroot /sysroot**
 
