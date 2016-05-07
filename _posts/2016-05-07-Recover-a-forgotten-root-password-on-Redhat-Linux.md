@@ -1,10 +1,10 @@
 ---
 layout: post
 type: post
-tags:
-- root password
-- Linux
-- Redhat
+tags: 
+  - root password
+  - Linux
+  - Redhat
 published: true
 title: Recover a forgotten root password on Redhat Linux
 ---
