@@ -1,5 +1,12 @@
 ---
-published: false
+layout: post
+type: post
+tags: 
+  - Testing
+  - NodeJS
+  - Mocha
+published: true
+title: Using Mocha for tesing
 ---
  Mocha uses behaviour driven development(BDD). It uses the describe and it functions in place of J unit style suites and tests. BDD is designed to read more like stories than tests. Mocha does not come with it's own assertion framework, this means you can use whichever you choose. Node.js  has a built in assert module that is good enough, that's what we used in the example below. 
  To run the test, you have to use Mocha's executable path, this is installed in > $YOUR_PROJECT/node_modules/mocha/bin/mocha. You use this command:> ./node_modules/.bin/mocha test.js. You can add it in your executable
