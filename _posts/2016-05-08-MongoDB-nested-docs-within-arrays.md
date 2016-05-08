@@ -31,7 +31,7 @@ title: MongoDB Nested docs within arrays
       db.collection('movies').
       find({ screenplay: 'Peter Benchley' }).
       toArray(function(error, docs) {
-  /*note the (.) in the ratings.audience, this is what is used to search through a nested document in the database */
+      /*note the (.) in the ratings.audience, this is what is used to search through a nested document in the database */
         db.collection('movies').
           find({ 'ratings.audience': {'$gte': 90 }}).
           toArray(function(error, docs) {
