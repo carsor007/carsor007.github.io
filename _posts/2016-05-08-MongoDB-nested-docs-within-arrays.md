@@ -1,5 +1,12 @@
 ---
+layout: post
+type: post
+tags: 
+  - Nested Docs
+  - NodeJS
+  - MongoDB
 published: true
+title: MongoDB Nested docs within arrays
 ---
 ## MongoDB lets you store in query form nested documents within arrays, check below example for nested document for ratings and an array field for screenplay authors
 
