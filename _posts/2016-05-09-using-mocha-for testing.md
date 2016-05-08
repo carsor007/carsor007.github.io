@@ -48,3 +48,36 @@ title: Using Mocha for tesing
 
       3 passing (38ms)
     $
+
+You can also use Gulp to automate the Mocha tests. When you run gulp, it waits for a file to change, when it changes it runs your tests and then it reports the results and goes back to waiting for more file changes. This enables you to get fast feedback on your work since you dont have to re-type your test command to run your tests. All you have to do is hit Control-S.
+
+Include it in your package.json like below:
+
+    {
+    "dependencies": {
+     "gulp": "3.8.11",
+     "gulp-mocha": "2.0.1"
+     "mocha": "2.2.4"
+      }
+    }
+
+Gulp is separated by tasks listed in a file gulpfile.js.
+
+    Below is a gulp file example with 2 tasks, test and watch.
+
+    var gulp = require('gulp');
+    var mocha = require('gulp-mocha');
+
+    gulp.task('test', function() {
+        gulp.
+          src('./test.js').
+          pipe(mocha()).
+          on('error', function(err) {
+            this.emit('end');
+          });
+     });
+      /* the watch task below watches all the .js files in the cwd and re-runs the test task when any of the files change*/
+    gulp.task('watch', function() {
+        gulp.watch('./*.js', ['test']);
+    });
+
