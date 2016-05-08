@@ -2,10 +2,11 @@
 layout: post
 type: post
 tags: 
-  - process
+  - ssh
   - Linux
 published: true
-title: process posterity
+title: Key based ssh setup
+---
 ## Process Posterity
 
  - A child process, 
