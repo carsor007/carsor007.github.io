@@ -10,7 +10,7 @@ title: MongoDB Nested docs within arrays
 ---
 ## MongoDB lets you store in query form nested documents within arrays, check below example for nested document for ratings and an array field for screenplay authors
 
-  ~~~ bash
+> ~~~ bash
   var doc = {
    title: 'Jaws',
    year: 1975,
@@ -23,13 +23,13 @@ title: MongoDB Nested docs within arrays
     screenplay: ['Peter Benchley', 'Carl Gotlieb']
   };
 
-   db.collection('movies').insert(doc, function(error, result) {
+   > db.collection('movies').insert(doc, function(error, result) {
     if (error) {
       console.log(error);
       process.exit(1);
     }
 
-     db.collection('movies').
+     > db.collection('movies').
       find({ screenplay: 'Peter Benchley' }).
       toArray(function(error, docs) {
   /*note the (.) in the ratings.audience, this is what is used to search through a nested document in the database */
