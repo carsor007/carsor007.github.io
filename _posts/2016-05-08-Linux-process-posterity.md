@@ -7,7 +7,7 @@ tags:
 published: true
 title: Process Posterity
 ---
-## Process Posterity
+
 
  - A child process, 
 - spawned with fork,
