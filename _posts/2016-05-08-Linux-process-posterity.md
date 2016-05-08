@@ -1,7 +1,11 @@
 ---
+layout: post
+type: post
+tags: 
+  - process
+  - Linux
 published: true
----
-
+title: process posterity
 ## Process Posterity
 
  - A child process, 
