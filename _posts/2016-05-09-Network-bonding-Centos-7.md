@@ -10,6 +10,7 @@ title: Network Bonding Centos 7
 ---
 Network bonding is a method of combining (joining) two or more network interfaces together into a single interface. It will increase the network throughput, bandwidth and will give redundancy. If one interface is down or unplugged, the other one will keep the network traffic up and alive. Network bonding can be used in situations wherever you need redundancy, fault tolerance or load balancing networks.
 There are different bonding modes described below:
+    
     mode=0 (balance-rr)
 
     Round-robin policy: It the default mode. It transmits packets in sequential order from the first available slave through the last. This mode provides load balancing and fault tolerance.
