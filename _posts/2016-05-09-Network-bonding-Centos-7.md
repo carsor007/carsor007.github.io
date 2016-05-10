@@ -48,7 +48,7 @@ There are different bonding modes described below:
 
 Adaptive load balancing: includes balance-tlb plus receive load balancing (rlb) for IPV4 traffic, and does not require any special switch support. The receive load balancing is achieved by ARP negotiation. The bonding driver intercepts the ARP Replies sent by the local system on their way out and overwrites the source hardware address with the unique hardware address of one of the slaves in the bond such that different peers use different hardware addresses for the server.
 
-  I have a Dell PowerEdge 2950 with Centos 7 installed, It has 2 NICs as shown below:
+  I have a Dell PowerEdge 2950 with Centos 7 installed, It has 2 NICs:
       > 1.	enp0s8.
       > 2.	enp0s9.
 
