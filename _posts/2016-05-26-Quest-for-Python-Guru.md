@@ -16,7 +16,7 @@ I looked for different python projects to contribute to. I ended up with [twiste
  
  **Contributing to Openstack:**
 
-   - There's many ways to contribute, for more information visit: https://wiki.openstack.org/wiki/How_To_Contribute
+   - There's many ways to contribute, for more information visit: [https://wiki.openstack.org/wiki/How_To_Contribute](https://wiki.openstack.org/wiki/How_To_Contribute)
 
 
   I chose the Developer option, cloned the Nova repository and I'm now working on bugs, focusing on the low-hanging fruits to be precise. I will provide updates during this interesting and adventorous journey.
