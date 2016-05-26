@@ -14,7 +14,7 @@ title: Quest for Python Guru status
 been utilising my skills within the sysadmin and Devops realm. I want to expand from this realm and become a 'Guru' in python if there's anything like that.
 I looked for different python projects to contribute to. I ended up with [twisted matrix](https://twistedmatrix.com/trac/) and [openstack](http://www.openstack.org/), my personal preference made me choose openstack nova. I like the code structure in openstack and also feel that cloud computing is something that has and will continue to disrupt the IT field. I want to be a part of this.
  
-1. **Contributing to Openstack:**
+ **Contributing to Openstack:**
 
    - There's many ways to contribute, for more information visit: https://wiki.openstack.org/wiki/How_To_Contribute
 
