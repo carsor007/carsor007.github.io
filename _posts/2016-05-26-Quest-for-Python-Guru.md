@@ -1,7 +1,14 @@
 ---
-published: false
+layout: post
+type: post
+tags: 
+  - Python
+  - Openstack
+  - Cloud computing
+published: true
+title: Quest for Python Guru status
 ---
-## A New Post
+## Quest for Python Guru status
 
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
 **Seeking Python Guru status.**
