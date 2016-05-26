@@ -8,9 +8,6 @@ tags:
 published: true
 title: Quest for Python Guru status
 ---
-## Quest for Python Guru status
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
 **Seeking Python Guru status.**
  
   Today I decided to become a volunteer for the [openstack-nova](http://www.openstack.org/) project. I like to consider myself a good Python programmer. However, I've mostly
