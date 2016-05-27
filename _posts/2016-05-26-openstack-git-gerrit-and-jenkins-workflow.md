@@ -31,6 +31,7 @@ I'm running Centos 7 and these are the steps I followed:
 - Once you have chosen the OpenStack project to contribute to, you'll clone it the usual way, for example:
 ![clone.png](/_posts/clone.png)
 - You may want to ask git-review to configure your project to know about Gerrit at this point. If you don’t, it will do so the first time you submit a change for review, but you probably want to do this ahead of time so the Gerrit Change-Id commit hook gets installed. To do so
+
 ![setup.png](/_posts/setup.png)
 
 - Git-review checks that you can log in to gerrit with your ssh key. It assumes that your gerrit/launchpad user name is the same as the current running user. If that doesn’t work, it asks for your gerrit/launchpad user name. If you don’t remember the user name go to the settings page on gerrit to check it out (it’s not your email
