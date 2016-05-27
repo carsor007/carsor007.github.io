@@ -60,11 +60,9 @@ I'm running Centos 7 and these are the steps I followed:
 
 ## Committing Changes
 - Git commit messages should start with a short 50 character or less summary in a single paragraph. The following paragraph(s) should explain the change in more detail.
-    If your changes addresses a blueprint or a bug, be sure to mention them in the commit message using the    following syntax:
-
+- If your changes addresses a blueprint or a bug, be sure to mention them in the commit message using the    following syntax:
     Implements: blueprint BLUEPRINT
     Closes-Bug: ####### (Partial-Bug or Related-Bug are options)
-
 - For example:
     Adds keystone support
     ...Long multiline description of the change...
@@ -72,7 +70,6 @@ I'm running Centos 7 and these are the steps I followed:
     Closes-Bug: #123456
     Change-Id: I4946a16d27f712ae2adf8441ce78e6c0bb0bb657
     
-
 - Note that in most cases the Change-Id line should be automatically added by a Gerrit commit hook that you will want to install. See Project Setup for details on configuring your project for Gerrit. If you already made the commit and the Change-Id was not added, do the Gerrit setup step and run:
     git commit --amend
     
@@ -82,6 +79,6 @@ I'm running Centos 7 and these are the steps I followed:
     git commit --a
     git review
     
-- _Caution: Do not check in changes on your master branch. Doing so will cause merge commits when you pull new upstream changes, and merge commits will not be accepted by Gerrit.
+- _Caution: Do not check in changes on your master branch. Doing so will cause merge commits when you pull new upstream changes, and merge commits will not be accepted by Gerrit._
  
 - _Prior to checking in make sure that you run “tox”.__
