@@ -47,7 +47,9 @@ I'm running Centos 7 and these are the steps I followed:
 
 - In the project directory, you have a .git hidden directory and a .gitreview hidden file. You can see them with:
 ![ls-la.png](/_posts/ls-la.png)
+
 ## Normal Workflow
+
 - Once your local repository is set up as above, you must use the following workflow.
 - Make sure you have the latest upstream changes by running the following commands
         git remote update
@@ -67,8 +69,9 @@ I'm running Centos 7 and these are the steps I followed:
 ## Committing Changes
 - Git commit messages should start with a short 50 character or less summary in a single paragraph. The following paragraph(s) should explain the change in more detail.
 - If your changes addresses a blueprint or a bug, be sure to mention them in the commit message using the    following syntax:
-    Implements: blueprint BLUEPRINT
-    Closes-Bug: ####### (Partial-Bug or Related-Bug are options)
+    
+        Implements: blueprint BLUEPRINT
+        Closes-Bug: ####### (Partial-Bug or Related-Bug are options)
 
 - For example:
         Adds keystone support
