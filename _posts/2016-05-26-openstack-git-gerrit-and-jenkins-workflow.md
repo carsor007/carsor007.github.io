@@ -23,6 +23,7 @@ I'm running Centos 7 and these are the steps I followed:
 - You’ll also want to upload an SSH key while you’re at it, so that you’ll be able to commit changes for review later.
 - Ensure that you have run these steps to let git know about your email address:
 ![git_config.png]({{site.url}}/imgs/git_config.png)
+
 -To check your git configuration
 ![git_list.png]({{site.url}}/imgs/git_list.png)
 ## Git Review Installation
