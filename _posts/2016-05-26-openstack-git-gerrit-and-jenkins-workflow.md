@@ -27,7 +27,9 @@ I'm running Centos 7 and these are the steps I followed:
 ## Git Review Installation
 -I ran > pip install git-review on my Centos 7 installation
 ![pip.png](/_posts/pip.png)
+
 ## Project Setup
+
 - Once you have chosen the OpenStack project to contribute to, you'll clone it the usual way, for example:
 ![clone.png](/_posts/clone.png)
 - You may want to ask git-review to configure your project to know about Gerrit at this point. If you don’t, it will do so the first time you submit a change for review, but you probably want to do this ahead of time so the Gerrit Change-Id commit hook gets installed. To do so
