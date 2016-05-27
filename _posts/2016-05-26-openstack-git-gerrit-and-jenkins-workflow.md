@@ -52,6 +52,7 @@ I'm running Centos 7 and these are the steps I followed:
 
 - Once your local repository is set up as above, you must use the following workflow.
 - Make sure you have the latest upstream changes by running the following commands
+        
         git remote update
         git checkout master
         git pull --ff-only origin master
@@ -74,6 +75,7 @@ I'm running Centos 7 and these are the steps I followed:
         Closes-Bug: ####### (Partial-Bug or Related-Bug are options)
 
 - For example:
+        
         Adds keystone support
         ...Long multiline description of the change...
         Implements: blueprint authentication
@@ -81,11 +83,13 @@ I'm running Centos 7 and these are the steps I followed:
         Change-Id: I4946a16d27f712ae2adf8441ce78e6c0bb0bb657
     
 - Note that in most cases the Change-Id line should be automatically added by a Gerrit commit hook that you will want to install. See Project Setup for details on configuring your project for Gerrit. If you already made the commit and the Change-Id was not added, do the Gerrit setup step and run:
+        
         git commit --amend
     
 - The commit hook will automatically add the Change-Id when you finish amending the commit message, even if you don’t actually make any changes.
 
 - Make your changes, commit them, and submit them for review:
+        
         git commit --a
         git review
     
