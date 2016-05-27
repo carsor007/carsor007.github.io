@@ -7,7 +7,7 @@ tags:
   - Repository
   - Gerrit
 published: true
-title: OpenStack git-Review-Setup
+title: "OpenStack git-Review-Setup"
 ---
 ## Gerrit Workflow
 
@@ -25,7 +25,7 @@ I'm running Centos 7 and these are the steps I followed:
 -To check your git configuration
 ![git_list.png](/_posts/git_list.png)
 ## Git Review Installation
--I ran pip install git-review on my Centos 7 installation
+-I ran > pip install git-review on my Centos 7 installation
 ![pip.png](/_posts/pip.png)
 ## Project Setup
 - Once you have chosen the OpenStack project to contribute to, you'll clone it the usual way, for example:
@@ -47,9 +47,9 @@ I'm running Centos 7 and these are the steps I followed:
 ## Normal Workflow
 - Once your local repository is set up as above, you must use the following workflow.
 - Make sure you have the latest upstream changes by running the following commands
-    git remote update
-    git checkout master
-    git pull --ff-only origin master
+    > git remote update
+    > git checkout master
+    > git pull --ff-only origin master
     
  ![git-pull.png](/_posts/git-pull.png)
 
@@ -64,23 +64,23 @@ I'm running Centos 7 and these are the steps I followed:
 ## Committing Changes
 - Git commit messages should start with a short 50 character or less summary in a single paragraph. The following paragraph(s) should explain the change in more detail.
 - If your changes addresses a blueprint or a bug, be sure to mention them in the commit message using the    following syntax:
-    Implements: blueprint BLUEPRINT
-    Closes-Bug: ####### (Partial-Bug or Related-Bug are options)
+    > Implements: blueprint BLUEPRINT
+    > Closes-Bug: ####### (Partial-Bug or Related-Bug are options)
 - For example:
-    Adds keystone support
-    ...Long multiline description of the change...
-    Implements: blueprint authentication
-    Closes-Bug: #123456
-    Change-Id: I4946a16d27f712ae2adf8441ce78e6c0bb0bb657
+    > Adds keystone support
+    > ...Long multiline description of the change...
+    > Implements: blueprint authentication
+    > Closes-Bug: #123456
+    > Change-Id: I4946a16d27f712ae2adf8441ce78e6c0bb0bb657
     
 - Note that in most cases the Change-Id line should be automatically added by a Gerrit commit hook that you will want to install. See Project Setup for details on configuring your project for Gerrit. If you already made the commit and the Change-Id was not added, do the Gerrit setup step and run:
-    git commit --amend
+    > git commit --amend
     
 - The commit hook will automatically add the Change-Id when you finish amending the commit message, even if you don’t actually make any changes.
 
 - Make your changes, commit them, and submit them for review:
-    git commit --a
-    git review
+    > git commit --a
+    > git review
     
 - _Caution: Do not check in changes on your master branch. Doing so will cause merge commits when you pull new upstream changes, and merge commits will not be accepted by Gerrit._
  
