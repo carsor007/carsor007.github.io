@@ -13,6 +13,7 @@ title: "OpenStack git-Review-Setup"
 
 First thing to do when contributing to Openstack is familiarize yourself with their git-review system and to set-up your environment.
 ![GerritGitJenkinsWorkflow.png](/_posts/GerritGitJenkinsWorkflow.png)
+<meta content="http://carsor007.github.com//_posts/GerritGitJenkinsWorkflow.png" property="og:image">
 
 I'm running Centos 7 and these are the steps I followed:
 -First sign up for a [Launchpad account](https://login.launchpad.net/), this is how the Web interface for the Gerrit code review system will identify you. It's also useful for automatically crediting bug fixes to you when you address them with your code commits.
