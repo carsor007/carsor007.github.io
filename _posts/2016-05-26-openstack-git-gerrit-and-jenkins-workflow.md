@@ -66,7 +66,9 @@ I'm running Centos 7 and these are the steps I followed:
 - If your changes addresses a blueprint or a bug, be sure to mention them in the commit message using the    following syntax:
     > Implements: blueprint BLUEPRINT
     > Closes-Bug: ####### (Partial-Bug or Related-Bug are options)
+
 - For example:
+
     > Adds keystone support
     > ...Long multiline description of the change...
     > Implements: blueprint authentication
