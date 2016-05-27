@@ -81,4 +81,4 @@ I'm running Centos 7 and these are the steps I followed:
     
 - _Caution: Do not check in changes on your master branch. Doing so will cause merge commits when you pull new upstream changes, and merge commits will not be accepted by Gerrit._
  
-- _Prior to checking in make sure that you run “tox”.__
+- _Prior to checking in make sure that you run “tox”._
