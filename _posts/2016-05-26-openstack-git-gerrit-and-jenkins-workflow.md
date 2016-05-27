@@ -54,8 +54,11 @@ I'm running Centos 7 and these are the steps I followed:
  ![git-pull.png](/_posts/git-pull.png)
 
 - Create a topic branch to hold your work and switch to it. If you are working on a blueprint, name your topic branch bp/BLUEPRINT where BLUEPRINT is the name of a blueprint in launchpad (for example, “bp/authentication”). The general convention when working on bugs is to name the branch bug/BUG-NUMBER (for example, “bug/1234567”). Otherwise, give it a meaningful name because it will show up as the topic for your change in Gerrit.
+
 ![topic-branch.png](/_posts/topic-branch.png)
+
 - To generate documentation artifacts, navigate to the directory where the pom.xml file is located for the project and run the following command:
+
 ![mvn.png](/_posts/mvn.png)
 
 ## Committing Changes
