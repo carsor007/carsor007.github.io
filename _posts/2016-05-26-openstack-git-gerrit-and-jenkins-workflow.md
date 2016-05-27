@@ -25,7 +25,7 @@ I'm running Centos 7 and these are the steps I followed:
 -To check your git configuration
 ![git_list.png](/_posts/git_list.png)
 ## Git Review Installation
--I ran > pip install git-review on my Centos 7 installation
+-I ran  pip install git-review on my Centos 7 installation
 ![pip.png](/_posts/pip.png)
 
 ## Project Setup
@@ -67,6 +67,7 @@ I'm running Centos 7 and these are the steps I followed:
 ## Committing Changes
 - Git commit messages should start with a short 50 character or less summary in a single paragraph. The following paragraph(s) should explain the change in more detail.
 - If your changes addresses a blueprint or a bug, be sure to mention them in the commit message using the    following syntax:
+    
     > Implements: blueprint BLUEPRINT
     > Closes-Bug: ####### (Partial-Bug or Related-Bug are options)
 
