@@ -74,10 +74,10 @@ I'm running Centos 7 and these are the steps I followed:
 - For example:
 
      > Adds keystone support
-     ...Long multiline description of the change...
-     Implements: blueprint authentication
-     Closes-Bug: #123456
-     Change-Id: I4946a16d27f712ae2adf8441ce78e6c0bb0bb657
+     > ...Long multiline description of the change...
+     > Implements: blueprint authentication
+     > Closes-Bug: #123456
+     > Change-Id: I4946a16d27f712ae2adf8441ce78e6c0bb0bb657
     
 - Note that in most cases the Change-Id line should be automatically added by a Gerrit commit hook that you will want to install. See Project Setup for details on configuring your project for Gerrit. If you already made the commit and the Change-Id was not added, do the Gerrit setup step and run:
     > git commit --amend
