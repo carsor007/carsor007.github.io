@@ -1,5 +1,13 @@
 ---
-published: false
+layout: post
+type: post
+tags: 
+  - OpenStack
+  - Git
+  - Repository
+  - Gerrit
+published: true
+title: OpenStack git-Review-Setup
 ---
 ## Gerrit Workflow
 
