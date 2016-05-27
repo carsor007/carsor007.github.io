@@ -11,7 +11,7 @@ permalink:        pretty
 
 # Setup
 title:            'carsor007.github.io'
-baseurl:          
+baseurl:           /
 
 github:
   repo:           https://github.com/carsor007
