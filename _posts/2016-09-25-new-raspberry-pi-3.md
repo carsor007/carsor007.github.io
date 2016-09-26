@@ -1,5 +1,12 @@
 ---
-published: false
+layout: post
+type: post
+tags: 
+  - Raspberry-Pi-3
+  - SOC
+  - Internet of Things
+published: true
+title: "new-raspberry-pi-3"
 ---
 ## Just Got my Raspberry-Pi
 
