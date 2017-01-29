@@ -1,4 +1,10 @@
 ---
+layout: post
+type: post
+tags:
+  - C++
+  - namespace
+  - fundamentals
 published: true
 ---
 ## C++ Refresher - Namespaces
