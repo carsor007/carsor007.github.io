@@ -35,13 +35,13 @@ A namespace is designed to overcome this difficulty and is used as additional in
  
  Example:
  > std::cout << "Hello World!" << std::endl;
- > std::string s;
- > std::vector<std::string vs;
+   std::string s;
+   std::vector<std::string vs;
  
  Some people prefer to write > std::
  Also if you only need a few distinct functions, you can tell it just that. For example, if you only plan on using cout and endl, there is no need to use the entire std namespace. Instead:
   > using std::cout;
-  > using std::endl;
+    using std::endl;
 
 
 
