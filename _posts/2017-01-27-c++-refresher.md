@@ -6,6 +6,7 @@ tags:
   - namespace
   - fundamentals
 published: true
+title: C++ namespaces
 ---
 ## C++ Refresher - Namespaces
 
