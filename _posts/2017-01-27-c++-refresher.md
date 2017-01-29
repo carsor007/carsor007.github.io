@@ -10,7 +10,7 @@ title: C++ namespaces
 ---
 ## C++ Refresher - Namespaces
 
-In C++ Namespaces are mostly used to avoid name conflicts. For example, you might be writing some code that has a function called > draw() and there is another library available with the same function > draw(). Now the compiler has no way of knowing which version of > draw() function you are referring to within your code.
+In C++ Namespaces are mostly used to avoid name conflicts. For example, you might be writing some code that has a function called draw() and there is another library available with the same function draw(). Now the compiler has no way of knowing which version of draw() function you are referring to within your code.
 A namespace is designed to overcome this difficulty and is used as additional information to differentiate similar functions, classes, variables etc. with the same name available in different libraries. 
   Example:
   
