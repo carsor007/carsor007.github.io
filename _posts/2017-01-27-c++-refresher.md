@@ -34,6 +34,7 @@ A namespace is designed to overcome this difficulty and is used as additional in
  This explains why you type > using namespace std; in programs that reference entities in the standard library. If you don't write > using namespace std; you will have to explicitly add > std:: before anything in the std namespace.
  
  Example:
+ 
  > std::cout << "Hello World!" << std::endl;
  
  > std::string s;
